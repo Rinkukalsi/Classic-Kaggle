@@ -19,10 +19,10 @@ from sklearn.preprocessing import LabelEncoder
 
 # %%
 # Importing train and test files 
-train_ = pd.read_csv('/Users/rinkukalsi/Desktop/data_science/Titanic---Machine-Learning-from-Disaster/train.csv')
+train_ = pd.read_csv('train.csv')
 
 # %%
-test_ = pd.read_csv('/Users/rinkukalsi/Desktop/data_science/Titanic---Machine-Learning-from-Disaster/test.csv')
+test_ = pd.read_csv('test.csv')
 
 # %% [markdown]
 # Preprocessing
